@@ -13,7 +13,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./assets/images/tabs.png" type="image/x-icon" />
 
   <!--
     - custom css link
@@ -43,6 +43,7 @@
   <header>
     <div class="container">
       <nav class="navbar">
+        <p class="h3" style="color: hsl(225, 100%, 60%);">KORNKRIT</p>
         <div class="btn-group">
           <button class="theme-btn theme-btn-mobile light">
             <ion-icon name="moon" class="moon"></ion-icon>
@@ -57,17 +58,19 @@
         <div class="flex-wrapper">
           <ul class="desktop-nav">
             <li>
-              <a href="#" class="nav-link">Home</a>
+              <a href="#" class="nav-link">About Me</a>
             </li>
 
             <li>
-              <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
-                class="nav-link">About Me</a>
+              <a href="#projects" target="_blank" class="nav-link">Projects</a>
             </li>
 
             <li>
-              <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
-                class="nav-link">Contact</a>
+              <a href="#certication" target="_blank" class="nav-link">Certifications</a>
+            </li>
+
+            <li>
+              <a href="#contact" target="_blank" class="nav-link">Contact</a>
             </li>
           </ul>
 
@@ -140,12 +143,11 @@
           </p>
 
           <div class="btn-group">
-            <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
-              class="btn btn-primary">Contact Me
-              <ion-icon name="call"></ion-icon>
+            <a href="mailto:nay-krit@hotmail.com" target="_blank" class="btn btn-primary">Contact Me
+              <ion-icon name="mail-outline"></ion-icon>
             </a>
-            <a href="https://drive.google.com/file/d/1CDDrR2YDWL-1tckz_WpaH7CRYsz9FDEs/view?usp=sharing" target="_blank"
-              class="btn btn-secondary">Download CV
+            <a href="https://drive.google.com/drive/folders/1fAXabz-E88Vrk8hI-L_n3qzeCbZ4ZqjH?usp=sharing"
+              target="_blank" class="btn btn-secondary">Download CV
               <ion-icon name="cloud-download-sharp"></ion-icon>
             </a>
           </div>
@@ -168,91 +170,146 @@
         -->
 
         <div class="blog">
-          <!-- Latest Projects -->
+          <!--  Projects -->
+          <section id="projects">
+            <h2 class="h2">Projects</h2>
 
-          <h2 class="h2">Projects</h2>
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./assets/images/projects/hadoop-overview.png" alt="to do app" class="blog-banner-img" />
+                </div>
 
-          <div class="blog-card-group">
-            <div class="blog-card">
-              <div class="blog-card-banner">
-                <img src="./assets/images/projects/dev-valley.png" alt="to do app" class="blog-banner-img" />
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main" class="h3"
+                      target="_blank">Batch and Real-time Data Pipeline with Hadoop Ecosystem
+                      to Generate Café Membership Loyalty</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Utilizing Hadoop to developed Batch data pipeline for
+                    customer data and Real-time data pipeline for transaction
+                    to generate records for cafe membership loyalty.
+                  </p>
+
+                  <p class="blog-text">
+                    Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
+                    Oozie, Docker
+                  </p>
+                  <div class="wrapper-flex">
+                    <div class="wrapper">
+                      <p class="text-sm">
+                        <time datetime="2021-12-10">Feb 2024</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div class="blog-content-wrapper">
-                <h3>
-                  <a href="https://github.com/mahmoudessam820/dev-valley" class="h3" target="_blank">Project name</a>
-                </h3>
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./assets/images/projects/kafka-overview.png" alt="to do app" class="blog-banner-img" />
+                </div>
 
-                <p class="blog-text">
-                  Dev-Valley is an open-source community platform for software
-                  developers, facilitating knowledge sharing and collaboration
-                  through blog posts and articles.
-                </p>
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a href="https://github.com/TirkNork/Kafka_CDC/tree/main" class="h3" target="_blank">Real-time
+                      Change Data Capture Pipeline using Apache
+                      Kafka
+                    </a>
+                  </h3>
 
-                <div class="wrapper-flex">
-                  <div class="wrapper">
-                    <p class="text-sm">
-                      <time datetime="2021-12-10">Sep 10, 2022</time>
-                    </p>
+                  <p class="blog-text">
+                    Utilize Apache Kafka in the creation of a real-time Change Data Capture Pipeline.
+                    Any alterations in the source database will be instantly reflected in the sink database
+                  </p>
+
+                  <p class="blog-text">
+                    Skills: Python, SQL, Kafka, Docker
+                  </p>
+                  <div class="wrapper-flex">
+                    <div class="wrapper">
+                      <p class="text-sm">
+                        <time datetime="2021-12-10">Feb 2024</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./assets/images/projects/hadoop-overview.png" alt="to do app" class="blog-banner-img" />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main" class="h3"
+                      target="_blank">Batch and Real-time Data Pipeline with Hadoop Ecosystem
+                      to Generate Café Membership Loyalty</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Utilizing Hadoop to developed Batch data pipeline for
+                    customer data and Real-time data pipeline for transaction
+                    to generate records for cafe membership loyalty.
+                  </p>
+
+                  <p class="blog-text">
+                    Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
+                    Oozie,GCP compute engine, Docker
+                  </p>
+                  <div class="wrapper-flex">
+                    <div class="wrapper">
+                      <p class="text-sm">
+                        <time datetime="2021-12-10">Feb 2024</time>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+          </section>
 
-            <div class="blog-card">
-              <div class="blog-card-banner">
-                <img src="./assets/images/projects/dev-valley.png" alt="to do app" class="blog-banner-img" />
-              </div>
+          <section id="certication">
+            <h2 class="h2">Certifications</h2>
 
-              <div class="blog-content-wrapper">
-                <h3>
-                  <a href="https://github.com/mahmoudessam820/dev-valley" class="h3" target="_blank">Project name</a>
-                </h3>
-
-                <p class="blog-text">
-                  Dev-Valley is an open-source community platform for software
-                  developers, facilitating knowledge sharing and collaboration
-                  through blog posts and articles.
-                </p>
-
-                <div class="wrapper-flex">
-                  <div class="wrapper">
-                    <p class="text-sm">
-                      <time datetime="2021-12-10">Sep 10, 2022</time>
-                    </p>
-                  </div>
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./assets/images/cer/cer_fullstackdata.png" alt="to do app" class="blog-banner-img" />
+                </div>
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a href="https://drive.google.com/file/d/1Ex_Kq2f8uEyN3HfxQ1TFVEjdudIMRuWq/view?usp=drive_link"
+                      class="h3" target="_blank">
+                      Complete Online Course: Full Stack Data
+                    </a>
+                  </h3>
                 </div>
               </div>
             </div>
 
-            <div class="blog-card">
-              <div class="blog-card-banner">
-                <img src="./assets/images/projects/dev-valley.png" alt="to do app" class="blog-banner-img" />
-              </div>
-
-              <div class="blog-content-wrapper">
-                <h3>
-                  <a href="https://github.com/mahmoudessam820/dev-valley" class="h3" target="_blank">Project name</a>
-                </h3>
-
-                <p class="blog-text">
-                  Dev-Valley is an open-source community platform for software
-                  developers, facilitating knowledge sharing and collaboration
-                  through blog posts and articles.
-                </p>
-
-                <div class="wrapper-flex">
-                  <div class="wrapper">
-                    <p class="text-sm">
-                      <time datetime="2021-12-10">Sep 10, 2022</time>
-                    </p>
-                  </div>
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./assets/images/cer/cer_r2de2.png" alt="to do app" class="blog-banner-img" />
+                </div>
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a href="https://drive.google.com/file/d/1NZKSvlPJNonaKExYVeT6m-z3UrYQhkU7/view?usp=drive_link"
+                      class="h3" target="_blank">
+                      Complete Online Course: Road to Data Engineer 2.0 By
+                      DathTH school
+                    </a>
+                  </h3>
                 </div>
               </div>
             </div>
-          </div>
+
+          </section>
         </div>
-        
 
         <!--
           - ASIDE
@@ -263,48 +320,19 @@
             <h2 class="h2">Technical Skills</h2>
 
             <div class="wrapper">
-              <button class="hashtag">#HTML</button>
-              <button class="hashtag">#CSS</button>
-              <button class="hashtag">#JavaScript</button>
-              <button class="hashtag">#Vue.js</button>
-              <button class="hashtag">#Bootstrap</button>
-              <button class="hashtag">#Python</button>
-              <button class="hashtag">#Flask</button>
-              <button class="hashtag">#Django</button>
-              <button class="hashtag">#PostgreSQL</button>
+              <button class="hashtag">#skill1</button>
+              <button class="hashtag">#skill2</button>
+              <button class="hashtag">#skill3</button>
             </div>
           </div>
 
-          <div class="contact">
-            <h2 class="h2">Let's Talk</h2>
+          <div class="tags">
+            <h2 class="h2">Soft Skills</h2>
 
             <div class="wrapper">
-              <p>
-                Do you want to learn more about how I can help your company
-                overcome problems? Let us have a conversation.
-              </p>
-
-              <ul class="social-link">
-                <li>
-                  <a href="https://discord.com/channels/988098121550667877/988098122053980191" target="_blank"
-                    class="icon-box discord">
-                    <ion-icon name="logo-discord"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://twitter.com/Mahmoud42275" class="icon-box twitter" target="_blank">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" class="icon-box linkedin"
-                    target="_blank">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                  </a>
-                </li>
-              </ul>
+              <button class="hashtag">#skill1</button>
+              <button class="hashtag">#skill2</button>
+              <button class="hashtag">#skill3</button>
             </div>
           </div>
         </div>
@@ -315,38 +343,37 @@
   <!--
     - #FOOTER
   -->
+  <section id="contact">
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <p class="footer-title">Quick Links</p>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/kornkrit-rattanasamniang/" class="footer-link"
+                target="_blank">LinkdIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/TirkNork" target="_blank" class="footer-link">GitHub</a>
+            </li>
+          </ul>
+        </div>
 
-  <footer>
-    <div class="container">
-      <div class="wrapper">
-        <p class="footer-title">Quick Links</p>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" class="footer-link"
-              target="_blank">LinkdIn</a>
-          </li>
-
-          <li>
-            <a href="https://github.com/mahmoudessam820" target="_blank" class="footer-link">GitHub</a>
-          </li>
-        </ul>
+        <div class="wrapper">
+          <p class="footer-title">Contact</p>
+          <ul>
+            <li>
+              <a href="mailto:nay-krit@hotmail.com" target="_blank" class="footer-link">
+                E-mail: nay-krit@hotmail.com</a>
+            </li>
+            <li>
+              <p class="footer-link">Tel: 0824308112</p>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="wrapper">
-        <p class="footer-title">Quick Links</p>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" class="footer-link"
-              target="_blank">LinkdIn</a>
-          </li>
-
-          <li>
-            <a href="https://github.com/mahmoudessam820" target="_blank" class="footer-link">GitHub</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </section>
 
   <!--
     - custom js link

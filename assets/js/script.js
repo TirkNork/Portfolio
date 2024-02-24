@@ -1,5 +1,15 @@
 'use strict';
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+
 // navbar variables
 const nav = document.querySelector('.mobile-nav');
 const navMenuBtn = document.querySelector('.nav-menu-btn');
