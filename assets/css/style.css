@@ -446,6 +446,10 @@ header .btn-group {
   color: var(--foreground-secondary);
   margin-bottom: 2rem;
 }
+.hero .h4 {
+  color: var(--foreground-secondary);
+  margin-bottom: 2rem;
+}
 
 .hero .btn-group {
   display: flex;
@@ -476,6 +480,25 @@ header .btn-group {
 
 .blog-card-group {
   margin-bottom: 3rem;
+}
+
+.blog-exp {
+  background: var(--background-primary);
+  color: var(--foreground-secondary);
+  padding: 25px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.05);
+  transition: 0.25s ease;
+}
+.blog-exp h3 {
+  color: var(--foreground-primary);
+
+}
+
+.blog-exp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.1);
 }
 
 .blog-card {

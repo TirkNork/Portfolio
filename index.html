@@ -1,387 +1,713 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Portfolio:Kornkrit Rattanasamniang</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" />
-  <title>Portfolio:Kornkrit Rattanasamniang</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/tabs.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/tabs.png"
+      type="image/x-icon"
+    />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body class="light-theme">
-  <!-- Start scroll-up-button -->
-  <div class="scroll-up-btn" onclick="scrollToTop()">
-    <img src="./assets/images/scroll-top-img.png" alt="scroll top icon" />
-  </div>
-  <!-- End scroll-up-button -->
+  <body class="light-theme">
+    <!-- Start scroll-up-button -->
+    <div class="scroll-up-btn" onclick="scrollToTop()">
+      <img src="./assets/images/scroll-top-img.png" alt="scroll top icon" />
+    </div>
+    <!-- End scroll-up-button -->
 
-  <!--
+    <!--
     - #HEADER
   -->
 
-  <header>
-    <div class="container">
-      <nav class="navbar">
-        <p class="h3" style="color: hsl(225, 100%, 60%);">KORNKRIT</p>
-        <div class="btn-group">
-          <button class="theme-btn theme-btn-mobile light">
-            <ion-icon name="moon" class="moon"></ion-icon>
-            <ion-icon name="sunny" class="sun"></ion-icon>
-          </button>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <p class="h3" style="color: hsl(225, 100%, 60%)">KORNKRIT</p>
+          <div class="btn-group">
+            <button class="theme-btn theme-btn-mobile light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
 
-          <button class="nav-menu-btn">
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-        </div>
-
-        <div class="flex-wrapper">
-          <ul class="desktop-nav">
-            <li>
-              <a href="#" class="nav-link">About Me</a>
-            </li>
-
-            <li>
-              <a href="#projects" target="_blank" class="nav-link">Projects</a>
-            </li>
-
-            <li>
-              <a href="#certication" target="_blank" class="nav-link">Certifications</a>
-            </li>
-
-            <li>
-              <a href="#contact" target="_blank" class="nav-link">Contact</a>
-            </li>
-          </ul>
-
-          <button class="theme-btn theme-btn-desktop light">
-            <ion-icon name="moon" class="moon"></ion-icon>
-            <ion-icon name="sunny" class="sun"></ion-icon>
-          </button>
-        </div>
-
-        <div class="mobile-nav">
-          <button class="nav-close-btn">
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-
-          <div class="wrapper">
-            <p class="h3 nav-title">Main Menu</p>
-
-            <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
-                  class="nav-link">About Me</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
-                  class="nav-link">Contact</a>
-              </li>
-            </ul>
+            <button class="nav-menu-btn">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
           </div>
 
-          <div>
-            <p class="h3 nav-title">Topics</p>
-
-            <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Software Development</a>
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
+                <a href="#" class="nav-link">About Me</a>
               </li>
 
-              <li class="nav-item">
-                <a href="#" class="nav-link">Database</a>
+              <li>
+                <a href="#experiences" target="_blank" class="nav-link"
+                  >Experiences</a
+                >
               </li>
 
-              <li class="nav-item">
-                <a href="#" class="nav-link">Web Performance</a>
+              <li>
+                <a href="#projects" target="_blank" class="nav-link"
+                  >Projects</a
+                >
+              </li>
+
+              <li>
+                <a href="#certications" target="_blank" class="nav-link"
+                  >Certifications</a
+                >
+              </li>
+
+              <li>
+                <a href="#contact" target="_blank" class="nav-link">Contact</a>
               </li>
             </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <!--
+            <button class="theme-btn theme-btn-desktop light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+          </div>
+
+          <div class="mobile-nav">
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">Main Menu</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/"
+                    target="_blank"
+                    class="nav-link"
+                    >About Me</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/"
+                    target="_blank"
+                    class="nav-link"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="h3 nav-title">Topics</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Software Development</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Database</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Web Performance</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--
       - #HERO SECTION
     -->
 
-    <div class="hero">
-      <div class="container">
-        <div class="left">
-          <h1 class="h1">Hi, I'm <b>Kornkrit Rattanasamniang</b> <br /></h1>
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">Hi, I'm <b>Kornkrit Rattanasamniang</b> <br /></h1>
 
-          <p class="h3">
-            Specialized in Python, SQL, Machine learning, and Big data
-            technologies
-          </p>
+            <p class="h4">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Passionate about leveraging analytical skills and Big data
+              technologies to extract actionable insights from data.<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eager to solve complex problems, and further develop expertise in
+              data-driven decision-making.
+            </p>
 
-          <div class="btn-group">
-            <a href="mailto:nay-krit@hotmail.com" target="_blank" class="btn btn-primary">Contact Me
-              <ion-icon name="mail-outline"></ion-icon>
-            </a>
-            <a href="https://drive.google.com/drive/folders/1fAXabz-E88Vrk8hI-L_n3qzeCbZ4ZqjH?usp=sharing"
-              target="_blank" class="btn btn-secondary">Download CV
-              <ion-icon name="cloud-download-sharp"></ion-icon>
-            </a>
+            <div class="btn-group">
+              <a
+                href="mailto:nay-krit@hotmail.com"
+                target="_blank"
+                class="btn btn-primary"
+                >Contact Me
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+              <a
+                href="https://drive.google.com/drive/folders/1fAXabz-E88Vrk8hI-L_n3qzeCbZ4ZqjH?usp=sharing"
+                target="_blank"
+                class="btn btn-secondary"
+                >Download CV
+                <ion-icon name="cloud-download-sharp"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <div class="right">
+            <figure class="picture">
+              <div class="picture-shadow"></div>
+              <img
+                id="pictureImage"
+                class="picture-image"
+                src="./assets/images/nay.jpg"
+                alt="Portrait of nay"
+                width="320"
+                height="320"
+              />
+            </figure>
           </div>
         </div>
-
-        <div class="right">
-          <figure class="picture">
-            <div class="picture-shadow"></div>
-            <img id="pictureImage" class="picture-image" src="./assets/images/nay.jpg" alt="Portrait of nay" width="320"
-              height="320" />
-          </figure>
-        </div>
       </div>
-    </div>
 
-    <div class="main">
-      <div class="container">
-        <!--
+      <div class="main">
+        <div class="container">
+          <!--
           - BLOG SECTION
         -->
 
-        <div class="blog">
-          <!--  Projects -->
-          <section id="projects">
-            <h2 class="h2">Projects</h2>
-
-            <div class="blog-card-group">
-              <div class="blog-card">
-                <div class="blog-card-banner">
-                  <img src="./assets/images/projects/hadoop-overview.png" alt="to do app" class="blog-banner-img" />
+          <div class="blog">
+            <section id="experiences">
+              <h2 class="h2">Experiences</h2>
+              <div class="blog-card-group">
+                <div class="blog-exp">
+                  <h3>
+                    AI Researcher & Software Developer Internship @
+                    BangkokUnitrade |
+                    <br />
+                    Project: Pill Inspection System with Deep Learning
+                  </h3>
+                  <ul>
+                    <li>
+                      - Researched and developed a deep learning algorithm for
+                      the Visual Inspection system in the Automatic Pill
+                      Dispenser
+                    </li>
+                    <li>
+                      - Developed a desktop application using PyQt for managing
+                      the inspection process
+                    </li>
+                    <li>
+                      - The system can classify 118 different classes of
+                      medicine with more than 90% sensitivity and specificity
+                      for all classes.
+                    </li>
+                  </ul>
+                  <p class="text-sm">
+                    <time datetime="2021-12-10">Jun 2023 - Nov 2023</time>
+                  </p>
                 </div>
 
-                <div class="blog-content-wrapper">
+                <div class="blog-exp">
                   <h3>
-                    <a href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main" class="h3"
-                      target="_blank">Batch and Real-time Data Pipeline with Hadoop Ecosystem
-                      to Generate Café Membership Loyalty</a>
+                    Software Developer Partime | Project: Industrial Community
+                    Platform
                   </h3>
-
-                  <p class="blog-text">
-                    Utilizing Hadoop to developed Batch data pipeline for
-                    customer data and Real-time data pipeline for transaction
-                    to generate records for cafe membership loyalty.
+                  <ul>
+                    <li>
+                      - Designed and developed front-end of an Industrial
+                      community platform web application
+                    </li>
+                  </ul>
+                  <p class="text-sm">
+                    <time datetime="2021-12-10">Aug 2022 - Feb 2023</time>
                   </p>
+                </div>
+              </div>
+            </section>
 
-                  <p class="blog-text">
-                    Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
-                    Oozie, Docker
-                  </p>
-                  <div class="wrapper-flex">
-                    <div class="wrapper">
-                      <p class="text-sm">
-                        <time datetime="2021-12-10">Feb 2024</time>
-                      </p>
+            <!--  Projects -->
+            <section id="projects">
+              <h2 class="h2">Projects</h2>
+
+              <div class="blog-card-group">
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/projects/hadoop-overview.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main"
+                        class="h3"
+                        target="_blank"
+                        >Batch and Real-time Data Pipeline with Hadoop Ecosystem
+                        to Generate Café Membership Loyalty</a
+                      >
+                    </h3>
+
+                    <p class="blog-text">
+                      Utilizing Hadoop to developed Batch data pipeline for
+                      customer data and Real-time data pipeline for transaction
+                      to generate records for cafe membership loyalty.
+                    </p>
+
+                    <p class="blog-text">
+                      Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
+                      Oozie, Docker
+                    </p>
+                    <div class="wrapper-flex">
+                      <div class="wrapper">
+                        <p class="text-sm">
+                          <time datetime="2021-12-10">Feb 2024</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/projects/kafka-overview.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://github.com/TirkNork/Kafka_CDC/tree/main"
+                        class="h3"
+                        target="_blank"
+                        >Real-time Change Data Capture Pipeline using Apache
+                        Kafka
+                      </a>
+                    </h3>
+
+                    <p class="blog-text">
+                      Utilize Apache Kafka in the creation of a real-time Change
+                      Data Capture Pipeline. Any alterations in the source
+                      database will be instantly reflected in the sink database
+                    </p>
+
+                    <p class="blog-text">Skills: Python, SQL, Kafka, Docker</p>
+                    <div class="wrapper-flex">
+                      <div class="wrapper">
+                        <p class="text-sm">
+                          <time datetime="2021-12-10">Feb 2024</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/projects/hadoop-overview.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main"
+                        class="h3"
+                        target="_blank"
+                        >Batch and Real-time Data Pipeline with Hadoop Ecosystem
+                        to Generate Café Membership Loyalty</a
+                      >
+                    </h3>
+
+                    <p class="blog-text">
+                      Utilizing Hadoop to developed Batch data pipeline for
+                      customer data and Real-time data pipeline for transaction
+                      to generate records for cafe membership loyalty.
+                    </p>
+
+                    <p class="blog-text">
+                      Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
+                      Oozie,GCP compute engine, Docker
+                    </p>
+                    <div class="wrapper-flex">
+                      <div class="wrapper">
+                        <p class="text-sm">
+                          <time datetime="2021-12-10">Feb 2024</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/projects/hadoop-overview.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main"
+                        class="h3"
+                        target="_blank"
+                        >Batch and Real-time Data Pipeline with Hadoop Ecosystem
+                        to Generate Café Membership Loyalty</a
+                      >
+                    </h3>
+
+                    <p class="blog-text">
+                      Utilizing Hadoop to developed Batch data pipeline for
+                      customer data and Real-time data pipeline for transaction
+                      to generate records for cafe membership loyalty.
+                    </p>
+
+                    <p class="blog-text">
+                      Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
+                      Oozie,GCP compute engine, Docker
+                    </p>
+                    <div class="wrapper-flex">
+                      <div class="wrapper">
+                        <p class="text-sm">
+                          <time datetime="2021-12-10">Feb 2024</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/projects/hadoop-overview.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main"
+                        class="h3"
+                        target="_blank"
+                        >Batch and Real-time Data Pipeline with Hadoop Ecosystem
+                        to Generate Café Membership Loyalty</a
+                      >
+                    </h3>
+
+                    <p class="blog-text">
+                      Utilizing Hadoop to developed Batch data pipeline for
+                      customer data and Real-time data pipeline for transaction
+                      to generate records for cafe membership loyalty.
+                    </p>
+
+                    <p class="blog-text">
+                      Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
+                      Oozie,GCP compute engine, Docker
+                    </p>
+                    <div class="wrapper-flex">
+                      <div class="wrapper">
+                        <p class="text-sm">
+                          <time datetime="2021-12-10">Feb 2024</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/projects/hadoop-overview.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main"
+                        class="h3"
+                        target="_blank"
+                        >Batch and Real-time Data Pipeline with Hadoop Ecosystem
+                        to Generate Café Membership Loyalty</a
+                      >
+                    </h3>
+
+                    <p class="blog-text">
+                      Utilizing Hadoop to developed Batch data pipeline for
+                      customer data and Real-time data pipeline for transaction
+                      to generate records for cafe membership loyalty.
+                    </p>
+
+                    <p class="blog-text">
+                      Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
+                      Oozie,GCP compute engine, Docker
+                    </p>
+                    <div class="wrapper-flex">
+                      <div class="wrapper">
+                        <p class="text-sm">
+                          <time datetime="2021-12-10">Feb 2024</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/projects/hadoop-overview.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main"
+                        class="h3"
+                        target="_blank"
+                        >Batch and Real-time Data Pipeline with Hadoop Ecosystem
+                        to Generate Café Membership Loyalty</a
+                      >
+                    </h3>
+
+                    <p class="blog-text">
+                      Utilizing Hadoop to developed Batch data pipeline for
+                      customer data and Real-time data pipeline for transaction
+                      to generate records for cafe membership loyalty.
+                    </p>
+
+                    <p class="blog-text">
+                      Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
+                      Oozie,GCP compute engine, Docker
+                    </p>
+                    <div class="wrapper-flex">
+                      <div class="wrapper">
+                        <p class="text-sm">
+                          <time datetime="2021-12-10">Feb 2024</time>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </section>
 
-              <div class="blog-card">
-                <div class="blog-card-banner">
-                  <img src="./assets/images/projects/kafka-overview.png" alt="to do app" class="blog-banner-img" />
+            <section id="certications">
+              <h2 class="h2">Certifications</h2>
+              <div class="blog-card-group">
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/cer/cer_fullstackdata.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://drive.google.com/file/d/1Ex_Kq2f8uEyN3HfxQ1TFVEjdudIMRuWq/view?usp=drive_link"
+                        class="h3"
+                        target="_blank"
+                      >
+                        Complete Online Course: Full Stack Data
+                      </a>
+                    </h3>
+                  </div>
                 </div>
 
-                <div class="blog-content-wrapper">
-                  <h3>
-                    <a href="https://github.com/TirkNork/Kafka_CDC/tree/main" class="h3" target="_blank">Real-time
-                      Change Data Capture Pipeline using Apache
-                      Kafka
-                    </a>
-                  </h3>
-
-                  <p class="blog-text">
-                    Utilize Apache Kafka in the creation of a real-time Change Data Capture Pipeline.
-                    Any alterations in the source database will be instantly reflected in the sink database
-                  </p>
-
-                  <p class="blog-text">
-                    Skills: Python, SQL, Kafka, Docker
-                  </p>
-                  <div class="wrapper-flex">
-                    <div class="wrapper">
-                      <p class="text-sm">
-                        <time datetime="2021-12-10">Feb 2024</time>
-                      </p>
-                    </div>
+                <div class="blog-card">
+                  <div class="blog-card-banner">
+                    <img
+                      src="./assets/images/cer/cer_r2de2.png"
+                      alt="to do app"
+                      class="blog-banner-img"
+                    />
+                  </div>
+                  <div class="blog-content-wrapper">
+                    <h3>
+                      <a
+                        href="https://drive.google.com/file/d/1NZKSvlPJNonaKExYVeT6m-z3UrYQhkU7/view?usp=drive_link"
+                        class="h3"
+                        target="_blank"
+                      >
+                        Complete Online Course: Road to Data Engineer 2.0 By
+                        DathTH school
+                      </a>
+                    </h3>
                   </div>
                 </div>
               </div>
+            </section>
+          </div>
 
-              <div class="blog-card">
-                <div class="blog-card-banner">
-                  <img src="./assets/images/projects/hadoop-overview.png" alt="to do app" class="blog-banner-img" />
-                </div>
-
-                <div class="blog-content-wrapper">
-                  <h3>
-                    <a href="https://github.com/TirkNork/hadoop_membership_loyalty/tree/main" class="h3"
-                      target="_blank">Batch and Real-time Data Pipeline with Hadoop Ecosystem
-                      to Generate Café Membership Loyalty</a>
-                  </h3>
-
-                  <p class="blog-text">
-                    Utilizing Hadoop to developed Batch data pipeline for
-                    customer data and Real-time data pipeline for transaction
-                    to generate records for cafe membership loyalty.
-                  </p>
-
-                  <p class="blog-text">
-                    Skills: Python, SQL, Spark, Hadoop HDFS, HIVE, FLUME,
-                    Oozie,GCP compute engine, Docker
-                  </p>
-                  <div class="wrapper-flex">
-                    <div class="wrapper">
-                      <p class="text-sm">
-                        <time datetime="2021-12-10">Feb 2024</time>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="certication">
-            <h2 class="h2">Certifications</h2>
-            <div class="blog-card-group">
-              <div class="blog-card">
-                <div class="blog-card-banner">
-                  <img src="./assets/images/cer/cer_fullstackdata.png" alt="to do app" class="blog-banner-img" />
-                </div>
-                <div class="blog-content-wrapper">
-                  <h3>
-                    <a href="https://drive.google.com/file/d/1Ex_Kq2f8uEyN3HfxQ1TFVEjdudIMRuWq/view?usp=drive_link"
-                      class="h3" target="_blank">
-                      Complete Online Course: Full Stack Data
-                    </a>
-                  </h3>
-                </div>
-              </div>
-
-              <div class="blog-card">
-                <div class="blog-card-banner">
-                  <img src="./assets/images/cer/cer_r2de2.png" alt="to do app" class="blog-banner-img" />
-                </div>
-                <div class="blog-content-wrapper">
-                  <h3>
-                    <a href="https://drive.google.com/file/d/1NZKSvlPJNonaKExYVeT6m-z3UrYQhkU7/view?usp=drive_link"
-                      class="h3" target="_blank">
-                      Complete Online Course: Road to Data Engineer 2.0 By
-                      DathTH school
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-          </section>
-        </div>
-
-        <!--
+          <!--
           - ASIDE
         -->
 
-        <div class="aside">
-          <div class="tags">
-            <h2 class="h2">Technical Skills</h2>
+          <div class="aside">
+            <div class="tags">
+              <h2 class="h2">Technical Skills</h2>
 
-            <div class="wrapper">
-              <button class="hashtag">#skill1</button>
-              <button class="hashtag">#skill2</button>
-              <button class="hashtag">#skill3</button>
+              <div class="wrapper">
+                <button class="hashtag">Python</button>
+                <button class="hashtag">R</button>
+                <button class="hashtag">SQL</button>
+                <button class="hashtag">MySQL</button>
+                <button class="hashtag">PostgresSQL</button>
+                <button class="hashtag">Microsoft SQL Server</button>
+                <button class="hashtag">Mongo DB</button>
+                <button class="hashtag">AWS S3</button>
+                <button class="hashtag">GCP cloud storage</button>
+                <button class="hashtag">GCP BigQuery</button>
+                <button class="hashtag">GCP cloud storage</button>
+                <button class="hashtag">Pandas</button>
+                <button class="hashtag">Spark</button>
+                <button class="hashtag">Airflow</button>
+                <button class="hashtag">Prefect</button>
+                <button class="hashtag">Oozie</button>
+                <button class="hashtag">Hadoop</button>
+                <button class="hashtag">HDFS</button>
+                <button class="hashtag">HIVE</button>
+                <button class="hashtag">Kafka</button>
+                <button class="hashtag">Docker</button>
+                <button class="hashtag">Statistic & Math</button>
+                <button class="hashtag">Machine Learning</button>
+                <button class="hashtag">Deep Learning</button>
+                <button class="hashtag">NLP</button>
+                <button class="hashtag">Computer vision</button>
+                <button class="hashtag">Looekr Studio</button>
+                <button class="hashtag">HTML</button>
+                <button class="hashtag">CSS</button>
+                <button class="hashtag">Javascript</button>
+              </div>
             </div>
-          </div>
 
-          <div class="tags">
-            <h2 class="h2">Soft Skills</h2>
+            <div class="tags">
+              <h2 class="h2">Soft Skills</h2>
 
-            <div class="wrapper">
-              <button class="hashtag">#skill1</button>
-              <button class="hashtag">#skill2</button>
-              <button class="hashtag">#skill3</button>
+              <div class="wrapper">
+                <button class="hashtag">Teamwork</button>
+                <button class="hashtag">Problem solving</button>
+                <button class="hashtag">Fast learning</button>
+                <button class="hashtag">Adaptability</button>
+                <button class="hashtag">Growth mindset</button>
+                <button class="hashtag">Communication</button>
+                <button class="hashtag">Design thinking</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <!--
+    <!--
     - #FOOTER
   -->
-  <section id="contact">
-    <footer>
-      <div class="container">
-        <div class="wrapper">
-          <p class="footer-title">Quick Links</p>
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/kornkrit-rattanasamniang/" class="footer-link"
-                target="_blank">LinkdIn</a>
-            </li>
-            <li>
-              <a href="https://github.com/TirkNork" target="_blank" class="footer-link">GitHub</a>
-            </li>
-          </ul>
-        </div>
+    <section id="contact">
+      <footer>
+        <div class="container">
+          <div class="wrapper">
+            <p class="footer-title">Quick Links</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/kornkrit-rattanasamniang/"
+                  class="footer-link"
+                  target="_blank"
+                  >LinkdIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/TirkNork"
+                  target="_blank"
+                  class="footer-link"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
 
-        <div class="wrapper">
-          <p class="footer-title">Contact</p>
-          <ul>
-            <li>
-              <a href="mailto:nay-krit@hotmail.com" target="_blank" class="footer-link">
-                E-mail: nay-krit@hotmail.com</a>
-            </li>
-            <li>
-              <p class="footer-link">Tel: 0824308112</p>
-            </li>
-          </ul>
+          <div class="wrapper">
+            <p class="footer-title">Contact</p>
+            <ul>
+              <li>
+                <a
+                  href="mailto:nay-krit@hotmail.com"
+                  target="_blank"
+                  class="footer-link"
+                >
+                  E-mail: nay-krit@hotmail.com</a
+                >
+              </li>
+              <li>
+                <p class="footer-link">Tel: 0824308112</p>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </footer>
-  </section>
+      </footer>
+    </section>
 
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
